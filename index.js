@@ -48,8 +48,6 @@ function closeForm() {
 
 closeButton.addEventListener("click", () => {
     closeForm();
-    //addButton.style.background = "transparent";
-    //addButton.style.transform = "rotate(0)";
 });
 
 function addTodo(e) {
