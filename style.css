@@ -37,7 +37,7 @@ h1{
     list-style: none;
   }
   
-  .todo{
+  .todo-li{
     margin: 15px auto;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -51,7 +51,7 @@ h1{
     transition: all 1s ease;
   }
   
-  .todo:hover{
+  .todo-li:hover{
     transform: scale(1.1);
     background: #fafafa;
     box-shadow:0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
@@ -79,7 +79,7 @@ h1{
     color: #e9491d;
   }
   
-  .todo .todo-item{
+  .todo-li .todo-item{
     margin-left: 5px;
   }
   
@@ -239,7 +239,7 @@ h1{
   .complete-btn:hover{
       background: green;
   }
-  .todo li {
+  .todo-li h3 {
       flex: 1;
     }
   
