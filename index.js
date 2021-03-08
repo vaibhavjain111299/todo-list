@@ -124,7 +124,6 @@ function deleteTodo(e) {
     if (item.classList[0] === "complete-btn") {
         todo = item.parentElement;
         todo.classList.toggle("completed");
-        lineThroughLocalTodos(todo);
     }
 
 }
